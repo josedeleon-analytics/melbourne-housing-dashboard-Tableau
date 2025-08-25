@@ -94,3 +94,37 @@ ELSEIF [Price or Room selection] = "Price per sqm" THEN
     AVG([Price]) / NULLIF(AVG([Building Area]), 0)
 END
 ```
+
+---
+
+## 🛠 Tools Used  
+- **Tableau Desktop** (dashboard development & visualization)  
+- **Melbourne Housing dataset** 
+
+---
+
+## ✅ Conclusion  
+This project successfully transforms the Melbourne Housing dataset into an interactive Tableau dashboard. By combining parameters, filters, and dynamic fields, users can analyze how property prices vary by type, region, land size, distance to the center, and over time.  
+
+The result is a powerful tool that demonstrates **Tableau storytelling, real estate analytics, and interactive reporting skills**, directly applicable to real-world decision-making in real estate investment, planning, and pricing strategy.  
+
+---
+
+## 📚 References  
+- Tableau Software. (2024). *Tableau Desktop: Visual Analytics*. Retrieved from [https://www.tableau.com/](https://www.tableau.com/)  
+- Tableau Help. (2024). *Parameters and Calculated Fields*. Retrieved from [https://help.tableau.com/](https://help.tableau.com/)  
+- Melbourne Housing Dataset (2018). Public housing dataset for analytics and visualization.  
+
+---
+
+## 👤 Author  
+
+**Jose De Leon**  
+🎓 Master’s in Analytics Candidate, Northeastern University  
+📬 [Email me](mailto:j.angel2294@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/jose-de-leon-analytics/)  
+
+---
+
+
+
