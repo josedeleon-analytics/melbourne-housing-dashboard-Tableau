@@ -37,6 +37,7 @@ This project demonstrates strong capabilities in Tableau, parameter-driven analy
 ![Dashboard Preview](plots/dasbhboard.png)
 
 🔗 [View Full Dashboard on Tableau Public](https://public.tableau.com/app/profile/jose.de.leon8828/viz/DashboardHousingPrices-github/Dashboard?publish=yes)  
+*(Note: The report is published online for interactive exploration. Please allow time for it to load.)*
 
 ---
 
