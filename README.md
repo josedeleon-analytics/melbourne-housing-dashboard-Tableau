@@ -14,21 +14,21 @@ This project explores the **Melbourne housing market** through an interactive Ta
 
 Key features include:  
 - Five dynamic visualizations (bar, histogram, line, and stacked plots).  
-- A parameter that toggles between **Average Price, Price per sqm, and Number of Rooms**.  
-- Interactive filters for **Region, Property Type, Rooms, Land Size, Distance, and Time**.  
+- A parameter that toggles between Average Price, Price per sqm, and Number of Rooms.  
+- Interactive filters for Region, Property Type, Rooms, Land Size, Distance, and Time.  
 - A unified dashboard displaying all visualizations for holistic analysis.  
 
-This project demonstrates strong capabilities in **Tableau, parameter-driven analysis, and real estate market insights**.  
+This project demonstrates strong capabilities in Tableau, parameter-driven analysis, and real estate market insights.  
 
 ---
 
 ## 📂 Project Files  
-- [`Dashboard - Melbourne Housing`](Dashboard%20-%20Melbourne%20Housing%20-%20github.twbx)  
-- [`Dataset`](melbourne_housing_cleaned.csv)  
+- [`Dashboard Housing Prices`](Dashboard%20Housing%20Prices%20-%20github.twbx)  
+- [`Dataset`](Melbourne_housing_cleaned.csv)  
 - [`Plots`](plots/)  
-- [`Project Tableau Dashboard PDF`](Project%20Tableau%20Dashboard%20Melbourne.pdf)  
+- [`Tableau Report PDF`](Tableau%20report%20-%20github.pdf)  
 - [`LICENSE`](LICENSE)  
-- [`README.md`](README.md)  
+- [`README.md`](README.md) 
 
 ---
 
@@ -36,7 +36,7 @@ This project demonstrates strong capabilities in **Tableau, parameter-driven ana
 
 ![Dashboard Preview](plots/dasbhboard.png)
 
-🔗 [View Full Dashboard on Tableau Public](https://public.tableau.com/app/profile/josedeleon-analytics/viz/MelbourneHousingDashboard/Dashboard)  
+🔗 [View Full Dashboard on Tableau Public](https://public.tableau.com/app/profile/jose.de.leon8828/viz/DashboardHousingPrices-github/Dashboard?publish=yes)  
 
 ---
 
@@ -76,14 +76,6 @@ This project demonstrates strong capabilities in **Tableau, parameter-driven ana
 - **Number of Rooms**  
   ![Parameter Setup](plots/parameter.png) 
 
-- **Dynamic Titles (Calculated Fields)**  
-  Each visualization title updates dynamically depending on the parameter selection:  
-  - Property Type  
-  - Region  
-  - Land Size  
-  - Distance to Center  
-  - Month  
-
 ### 📌 Calculated Field: Selected Price or Rooms  
 This field drives the metric shown across all visualizations, dynamically switching based on the parameter selection.  
 
@@ -106,7 +98,7 @@ END
 ## ✅ Conclusion  
 This project successfully transforms the Melbourne Housing dataset into an interactive Tableau dashboard. By combining parameters, filters, and dynamic fields, users can analyze how property prices vary by type, region, land size, distance to the center, and over time.  
 
-The result is a powerful tool that demonstrates **Tableau storytelling, real estate analytics, and interactive reporting skills**, directly applicable to real-world decision-making in real estate investment, planning, and pricing strategy.  
+The result is a powerful tool that demonstrates Tableau storytelling, real estate analytics, and interactive reporting skills, directly applicable to real-world decision-making in real estate investment, planning, and pricing strategy.  
 
 ---
 
