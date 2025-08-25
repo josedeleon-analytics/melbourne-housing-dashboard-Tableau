@@ -43,35 +43,28 @@ This project demonstrates strong capabilities in **Tableau, parameter-driven ana
 ## 🔍 Visualizations  
 
 ### 1. Average Price by Property Type  
-Filters: Region, Rooms, Year Built, Land Size, Date  
-![Average Price by Property Type](plots/avg_price_property_type.png)  
+![Average Price by Property Type](plots/average%20price%20by%20property%20type.png)  
 
 ### 2. Price per sqm by Property Type  
-Filters: Region, Rooms, Year Built, Land Size, Date  
-![Price per sqm by Property Type](plots/price_per_sqm_property_type.png)  
+![Price per sqm by Property Type](plots/price%20per%20sqm%20by%20property%20type.png)  
 
 ### 3. Average Price by Region  
-Filters: Region, Rooms, Year Built, Land Size, Date  
-![Average Price by Region](plots/avg_price_region.png)  
+![Average Price by Region](plots/average%20price%20by%20region.png)  
 
 ### 4. Price per sqm by Region  
-Filters: Region, Rooms, Year Built, Land Size, Date  
-![Price per sqm by Region](plots/price_per_sqm_region.png)  
+![Price per sqm by Region](plots/price%20per%20sqm%20by%20region.png)  
 
 ### 5. Number of Rooms vs Land Size  
-Filters: Region, Rooms, Year Built, Type  
-![Rooms vs Land Size](plots/rooms_vs_landsize.png)  
+![Number of Rooms vs Land Size](plots/number%20of%20rooms%20vs%20land%20size.png)  
 
 ### 6. Average Price vs Distance to the Center  
-Filters: Region, Rooms, Year Built, Land Size  
-![Average Price vs Distance](plots/avg_price_distance.png)  
+![Average Price vs Distance](plots/average%20price%20vs%20distnace%20to%20the%20center.png)  
 
 ### 7. Average Price by Month  
-Filters: Region, Rooms, Year Built, Type  
-![Average Price by Month](plots/avg_price_month.png)  
+![Average Price by Month](plots/average%20price%20by%20month.png)  
 
 ### 8. Final Dashboard – Melbourne Housing Insights  
-![Final Dashboard](plots/final_dashboard.png)  
+![Final Dashboard](plots/dasbhboard.png)  
 
 ---
 
