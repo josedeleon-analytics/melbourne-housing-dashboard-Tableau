@@ -34,7 +34,7 @@ This project demonstrates strong capabilities in **Tableau, parameter-driven ana
 
 ## 📸 Dashboard Demonstration  
 
-[![Dashboard Preview](plots/final_dashboard.png)](https://public.tableau.com/app/profile/josedeleon-analytics/viz/MelbourneHousingDashboard/Dashboard)  
+![Dashboard Preview](plots/dasbhboard.png)
 
 🔗 [View Full Dashboard on Tableau Public](https://public.tableau.com/app/profile/josedeleon-analytics/viz/MelbourneHousingDashboard/Dashboard)  
 
@@ -63,19 +63,18 @@ This project demonstrates strong capabilities in **Tableau, parameter-driven ana
 ### 7. Average Price by Month  
 ![Average Price by Month](plots/average%20price%20by%20month.png)  
 
-### 8. Final Dashboard – Melbourne Housing Insights  
-![Final Dashboard](plots/dasbhboard.png)  
 
 ---
 
 ## ⏳ Parameter & Calculated Fields  
 
+### 📌 Parameter: Price or Room selection 
 - **Price or Room Selection Parameter**  
   This parameter allows users to toggle between three perspectives:  
 - **Average Price**  
 - **Price per sqm**  
 - **Number of Rooms**  
-  ![Parameter](plots/parameter.png)  
+  ![Parameter Setup](plots/parameter.png) 
 
 - **Dynamic Titles (Calculated Fields)**  
   Each visualization title updates dynamically depending on the parameter selection:  
@@ -85,9 +84,13 @@ This project demonstrates strong capabilities in **Tableau, parameter-driven ana
   - Distance to Center  
   - Month  
 
-Example of calculated field:  
+### 📌 Calculated Field: Selected Price or Rooms  
+This field drives the metric shown across all visualizations, dynamically switching based on the parameter selection.  
+
 ```tableau
-IF [Parameter Price or Room] = "Average Price" THEN AVG([Price])
-ELSEIF [Parameter Price or Room] = "Price per sqm" THEN SUM([Price])/SUM([BuildingArea])
-ELSEIF [Parameter Price or Room] = "Number of Rooms" THEN AVG([Rooms])
+IF [Price or Room selection] = "Average Price" THEN AVG([Price])
+ELSEIF [Price or Room selection] = "Number of Rooms" THEN MEDIAN([Rooms])
+ELSEIF [Price or Room selection] = "Price per sqm" THEN
+    AVG([Price]) / NULLIF(AVG([Building Area]), 0)
 END
+```
